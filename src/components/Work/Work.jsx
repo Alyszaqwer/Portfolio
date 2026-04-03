@@ -31,7 +31,14 @@ const Work = () => {
  
       <div className="projectList">
         {projects.map((project) => (
-          <div key={project.number} className="projectItem">
+
+      key={project.number}
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="projectItem"
+      >
+            
             <span className="projectNumber">{project.number}</span>
             <div className="projectInfo">
               <h3 className="projectTitle">{project.title}</h3>
