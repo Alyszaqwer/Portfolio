@@ -21,15 +21,13 @@ const About = () => {
 
 
         <div className="aboutRight">
-            <p className="aboutBio">  Hi! I'm Alyssa, a UX Designer with a deep love for arts and crafts interfaces
-          that don't just look good — they feel right. I believe great design is invisible,
-           it guides, delights, and empowers without getting in the way.
+            <p className="aboutBio">  Hi! I'm Alyssa, a UX Designer who loves crafting things that are easy to use and nice
+                to look at. Creativity and imagination have always been a big part of who iam, and I bring that same care into
+                my designs. I want people to enjoy what they are using without any confusion or frustration.
            </p>
 
-           <p className="aboutBio"> I'm someone who's always eager to learn whether it's picking up a new skill,
-          diving into an interesting topic, or just figuring out how things work. I love
-          the feeling of growth that comes with learning something new, and I'm excited
-          to see where that curiosity takes me.
+           <p className="aboutBio"> Im always hungry to learn. New skilss, new ideas, new ways of thinking. Im here for all of 
+               it. I love the feeling of getting better at something, and that excitement keeps me going every single day.
           </p>
 
           <p className="aboutBio">I'm currently studying information technology at Western Institute of Technology,
