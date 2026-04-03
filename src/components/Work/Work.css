@@ -102,4 +102,7 @@ body.dark .projectTag {
   color: #e8e3d8;
   border-color: #3a3a30;
 }
- 
+.projectItem{
+  text-decoration: none;
+  color: inherit;
+}
