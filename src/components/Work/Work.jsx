@@ -31,7 +31,7 @@ const Work = () => {
  
       <div className="projectList">
         {projects.map((project) => (
-
+<a
       key={project.number}
       href={project.link}
       target="_blank"
@@ -48,7 +48,7 @@ const Work = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
  
