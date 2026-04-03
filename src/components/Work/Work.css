@@ -1,0 +1,105 @@
+.work {
+  background-color: #ede8dc;
+  padding: 6rem 5rem;
+  min-height: 100vh;
+}
+ 
+body.dark .work {
+  background-color: #141410;
+}
+ 
+
+ 
+.workHeading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.8rem, 5vw, 5rem);
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4rem;
+  line-height: 1;
+}
+ 
+body.dark .workHeading {
+  color: #e8e3d8;
+}
+ 
+
+ 
+.projectList {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.projectItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #d6caca;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+ 
+.projectItem:hover {
+  opacity: 0.65;
+}
+ 
+body.dark .projectItem {
+  border-bottom-color: #2a2a22;
+}
+ 
+
+.projectNumber {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.75rem;
+  color: #1a1a1a;
+  opacity: 0.35;
+  min-width: 2rem;
+  padding-top: 0.3rem;
+  font-style: italic;
+}
+ 
+body.dark .projectNumber {
+  color: #e8e3d8;
+}
+ 
+
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+ 
+.projectTitle {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 0.02em;
+}
+ 
+body.dark .projectTitle {
+  color: #e8e3d8;
+}
+ 
+.projectTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+ 
+.projectTag {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  color: #1a1a1a;
+  border: 1px solid #c5bfb0;
+  padding: 0.35rem 0.75rem;
+  background: transparent;
+}
+ 
+body.dark .projectTag {
+  color: #e8e3d8;
+  border-color: #3a3a30;
+}
+ 

@@ -1,0 +1,15 @@
+* { margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: 'DM Sans', sans-serif;
+  cursor: none;
+  overflow-x: hidden;
+  transition: background 0.35s ease, color 0.35s ease;
+}

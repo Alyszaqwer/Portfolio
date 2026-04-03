@@ -1,0 +1,262 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  background-color: #ede8dc;
+  padding: 6rem 5rem;
+  border-top: 1px solid #c5bfb0;
+  cursor: pointer;
+}
+ 
+body.dark .contact {
+  background-color: #141410;
+  border-top-color: #2a2a22;
+}
+
+ 
+.contactLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  justify-content: center;
+}
+ 
+.contactLabel {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #b07d3a;
+  cursor: pointer;
+}
+ 
+.contactHeading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.05;
+  cursor: pointer;
+}
+ 
+body.dark .contactHeading {
+  color: #e8e3d8;
+}
+ 
+.contactDesc {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: #1a1a1a;
+  opacity: 0.65;
+  max-width: 36rem;
+  cursor: pointer;
+}
+ 
+body.dark .contactDesc {
+  color: #e8e3d8;
+}
+ 
+.contactEmail {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 2px solid #b07d3a;
+  padding-bottom: 2px;
+  width: fit-content;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+ 
+.contactEmail:hover {
+  opacity: 0.6;
+}
+ 
+body.dark .contactEmail {
+  color: #e8e3d8;
+}
+ 
+ 
+.contactRight {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+}
+ 
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #c5bfb0;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+ 
+body.dark .formGroup {
+  border-bottom-color: #2a2a22;
+}
+ 
+.formLabel {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  opacity: 0.5;
+  cursor: pointer;
+}
+ 
+body.dark .formLabel {
+  color: #e8e3d8;
+}
+ 
+.formInput,
+.formTextarea {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.92rem;
+  color: #1a1a1a;
+  padding: 0.3rem 0;
+  resize: none;
+  width: 100%;
+  cursor: pointer;
+}
+ 
+.formInput::placeholder,
+.formTextarea::placeholder {
+  color: #1a1a1a;
+  opacity: 0.35;
+}
+ 
+body.dark .formInput,
+body.dark .formTextarea {
+  color: #e8e3d8;
+}
+ 
+body.dark .formInput::placeholder,
+body.dark .formTextarea::placeholder {
+  color: #e8e3d8;
+}
+ 
+.formBtn {
+  margin-top: 0.5rem;
+  background-color: #1a1a1a;
+  color: #ede8dc;
+  border: none;
+  padding: 1.1rem 2rem;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: fit-content;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+ 
+.formBtn:hover {
+  opacity: 0.75;
+}
+ 
+body.dark .formBtn {
+  background-color: #e8e3d8;
+  color: #141410;
+}
+
+ 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ede8dc;
+  padding: 1.8rem 5rem;
+  border-top: 1px solid #c5bfb0;
+  cursor: pointer;
+}
+ 
+body.dark .footer {
+  background-color: #141410;
+  border-top-color: #2a2a22;
+}
+ 
+.footerLogo {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+ 
+body.dark .footerLogo {
+  color: #e8e3d8;
+}
+ 
+.footerCenter {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.75rem;
+  color: #1a1a1a;
+  opacity: 0.45;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+ 
+body.dark .footerCenter {
+  color: #e8e3d8;
+}
+ 
+.footerLinks {
+  display: flex;
+  gap: 1.8rem;
+}
+ 
+.footerLink {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1a1a1a;
+  opacity: 0.55;
+  transition: opacity 0.2s;
+  padding: 0;
+  cursor: pointer;
+}
+ 
+.footerLink:hover {
+  opacity: 1;
+}
+ 
+body.dark .footerLink {
+  color: #e8e3d8;
+}
+ 
+
+ 
+@media (max-width: 768px) {
+  .contact {
+    grid-template-columns: 1fr;
+    padding: 4rem 1.8rem;
+  }
+ 
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 1.8rem;
+    text-align: center;
+  }
+ 
+  .footerLinks {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+ 

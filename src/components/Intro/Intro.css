@@ -1,0 +1,115 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.introLeft {
+  width: 50%;
+  background-color: #ede8dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6rem 3rem 3rem 4rem;
+  cursor: pointer;
+}
+
+.introContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  cursor: pointer;
+}
+
+.introHello {
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: 'Georgia', serif;
+  line-height: 0.95;
+  margin: 0;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.introIm {
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  line-height: 0.95;
+  margin: 0;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.introName {
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: 'Georgia', serif;
+  line-height: 0.95;
+  margin: 0;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.introSub {
+  font-size: 0.85rem;
+  color: #b07d3a;
+  font-style: italic;
+  margin-top: 1.5rem;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+}
+
+.scrollDown {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.scrollLine {
+  width: 3rem;
+  height: 1px;
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
+
+.scrollText {
+  font-size: 0.75rem;
+  letter-spacing: 0.15rem;
+  color: #1a1a1a;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.introRight {
+  width: 50%;
+  height: 100vh;
+  cursor: pointer;
+  
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  cursor: pointer;
+}
+
+@media screen and (max-width:840px){
+  .bgImage{
+    right: -10vm;
+  }
+  .introContent {
+    font-size: 10vm;
+
+  }
+}

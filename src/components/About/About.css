@@ -1,0 +1,143 @@
+.about{
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+  background-color: #ede8dc;
+  padding: 5rem 5rem 6rem 5rem;
+  position: relative;
+  gap: 0 4rem;
+  cursor: pointer;
+
+}
+ 
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+  background-color: #ede8dc;
+  padding: 5rem 5rem 6rem 5rem;
+  position: relative;
+  gap: 0 4rem;
+  cursor: pointer;
+}
+ 
+body.dark .about {
+  background-color: #141410;
+}
+ 
+
+.aboutCircle {
+  grid-column: 1 / -1;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  border: 1px solid #1a1a1a;
+  margin: 0 auto 3rem auto;
+  opacity: 0.35;
+  cursor: pointer;
+}
+ 
+body.dark .aboutCircle {
+  border-color: #e8e3d8;
+}
+ 
+
+ 
+.aboutLeft {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+ 
+.aboutLabel {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  opacity: 0.5;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+ 
+body.dark .aboutLabel {
+  color: #e8e3d8;
+}
+ 
+.aboutHeading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.8rem, 5vw, 5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  color: #1a1a1a;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+}
+ 
+body.dark .aboutHeading {
+  color: #e8e3d8;
+}
+ 
+
+ 
+.aboutRight {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+ 
+.aboutBio {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.85;
+  color: #1a1a1a;
+  opacity: 0.75;
+  cursor: pointer;
+}
+ 
+body.dark .aboutBio {
+  color: #e8e3d8;
+}
+ 
+
+ 
+.skillsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+ 
+.skillTag {
+  border: 1px solid #c5bfb0;
+  padding: 0.85rem 1.2rem;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  color: #1a1a1a;
+  background-color: transparent;
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+}
+ 
+.skillTag:hover {
+  background-color: #1a1a1a;
+  color: #ede8dc;
+}
+ 
+body.dark .skillTag {
+  border-color: #3a3a30;
+  color: #e8e3d8;
+}
+ 
+body.dark .skillTag:hover {
+  background-color: #e8e3d8;
+  color: #141410;
+}
+ 
