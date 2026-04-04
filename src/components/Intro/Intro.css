@@ -101,7 +101,7 @@
 }
 
 .bg {
-  width: 340%;
+  width: 340px;
   height: 420px;
   object-fit: cover;
   object-position: center top;
