@@ -92,16 +92,20 @@
 .introRight {
   width: 50%;
   height: 100vh;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #ede8dc;
+  justify-content: center;
+  
   
 }
 
 .bg {
-  width: 100%;
-  height: 100%;
+  width: 340%;
+  height: 420px;
   object-fit: cover;
   object-position: center top;
-  cursor: pointer;
+  display: block;
 }
 
 @media screen and (max-width:840px){
