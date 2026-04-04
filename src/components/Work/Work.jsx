@@ -26,6 +26,7 @@ const projects = [
     title: 'BAYANIHAN',
     tags: ['UI DESIGN', 'COLLABORATION', 'FIGMA'],
     link: 'https://www.figma.com/proto/Xnr65ApMDNPB2fpE9sizBJ/BAYANIHAN?node-id=0-1&t=zPXGsG9osR1T55Tv-1'
+  },
 ]
  
 const Work = () => {
