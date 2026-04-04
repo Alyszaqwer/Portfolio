@@ -26,7 +26,7 @@ const About = () => {
                 my designs. I want people to enjoy what they are using without any confusion or frustration.
            </p>
 
-           <p className="aboutBio"> Im always hungry to learn. New skilss, new ideas, new ways of thinking. Im here for all of 
+           <p className="aboutBio"> Im always hungry to learn. New skills, new ideas, new ways of thinking. Im here for all of 
                it. I love the feeling of getting better at something, and that excitement keeps me going every single day.
           </p>
 
