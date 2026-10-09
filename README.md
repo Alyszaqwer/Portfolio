@@ -13,22 +13,31 @@ I'm an IT student building web projects with HTML, CSS, JavaScript, PHP, and Rea
 ## Features
 
 ✎﹏Responsive layout for desktop and mobile
+
 ✎﹏About, Work, and Contact sections
+
 ✎﹏Project showcase with tags and live links
+
 ✎﹏Links to my LinkedIn and GitHub
 
 ## Built With
 
 ✎﹏React (Create React App)
+
 ✎﹏CSS
+
 ✎﹏Deployed on Vercel
 
 ## Run Locally
 
 -bash-
+
 ✎﹏git clone https://github.com/Alyszaqwer/Portfolio.git
+
 ✎﹏cd Portfolio
+
 ✎﹏npm install
+
 ✎﹏npm start
 
 ## Contact
