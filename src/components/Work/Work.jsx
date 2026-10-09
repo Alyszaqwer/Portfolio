@@ -35,9 +35,8 @@ const projects = [
  },
  {
    number: '06',
-   title: 'MenteeLog',
+   title: 'Coming Soon',
    tags: ['COLLABORATION', 'OJT','INTERNSHIP'],
-   title: 'Coming Soon'
  },
 ]
  
