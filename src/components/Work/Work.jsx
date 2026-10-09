@@ -11,7 +11,7 @@ const projects = [
   {
     number: '02',
     title: 'STUDY US GROUP PROJECT',
-    tags: ['UI DESIGN', 'COLLABORATION', 'FIGMA'],
+    tags: ['CONNECTION', 'COLLABORATION', 'EDUCATION'],
     link: 'https://www.figma.com/design/erRLniSnBK1B5VhmrPif7o/StudyUS?node-id=0-1&m=dev&t=4iYo0TGZIRDE5qQ1-1',
 
   },
@@ -24,9 +24,21 @@ const projects = [
   {
     number: '04',
     title: 'BAYANIHAN',
-    tags: ['UI DESIGN', 'COLLABORATION', 'FIGMA'],
+    tags: ['HANDYMAN', 'COLLABORATION', 'REPAIR'],
     link: 'https://www.figma.com/proto/Xnr65ApMDNPB2fpE9sizBJ/BAYANIHAN?node-id=0-1&t=zPXGsG9osR1T55Tv-1'
   },
+  {
+   number: '05',
+   title: 'Miamor',
+   tags: ['STORY', 'MEMORIES','RELATIONSHIP'],
+   link: 'https://miamor-seven.vercel.app/'
+ },
+ {
+   number: '06',
+   title: 'MenteeLog',
+   tags: ['COLLABORATION', 'OJT','INTERNSHIP'],
+   title: 'Coming Soon'
+ },
 ]
  
 const Work = () => {

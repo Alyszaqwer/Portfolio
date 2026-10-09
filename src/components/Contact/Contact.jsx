@@ -10,7 +10,7 @@ const Contact = () => {
           <p className="contactLabel">Get In Touch</p>
           <h2 className="contactHeading">Let's create something great.</h2>
           <p className="contactDesc">
-            Whether you have a project in mind, a question, or just want to say hello — I'd love to hear from you.
+            Whether you have a project in mind, a question, or just want to say hello  I'd love to hear from you.
           </p>
           <a href="mailto:jhodiealyssa.0131@gmail.com" className="contactEmail">
             jhodiealyssa.0131@gmail.com
@@ -44,12 +44,12 @@ const Contact = () => {
       
       <footer className="footer">
   <span className="footerLogo">Portfolio</span>
-  <span className="footerCenter">2026 — UX Designer Portfolio</span>
+  <span className="footerCenter"> MyPortfolio</span>
   <div className="footerLinks">
     <button className="footerLink" onClick={() => window.open('https://www.facebook.com/share/1CTwttcpP9/', '_blank')}>Facebook</button>
-    <button className="footerLink" onClick={() => window.open('https://www.instagram.com/shisuiij_?igsh=MWVuZ29zOGhsdGk4Yg', '_blank')}>Instagram</button>
+    <button className="footerLink" onClick={() => window.open('https://www.instagram.com/_aeriths_/', '_blank')}>Instagram</button>
     <button className="footerLink" onClick={() => window.open('https://github.com/Alyszaqwer', '_blank')}>Github</button>
-    <button className="footerLink" onClick={() => window.open('https://www.linkedin.com/in/jhodie-alyssa-ladran-a355003b8/', '_blank')}>LinkedIn</button>
+    <button className="footerLink" onClick={() => window.open('https://www.linkedin.com/in/jhodie-alyssa-ladran-a07176441/', '_blank', 'noopener,noreferrer')}>LinkedIn</button>
   </div>
 </footer>
     </>
@@ -57,3 +57,6 @@ const Contact = () => {
 }
  
 export default Contact
+
+
+
